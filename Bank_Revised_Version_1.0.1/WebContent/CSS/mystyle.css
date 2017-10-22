@@ -1,0 +1,416 @@
+@font-face{
+	font-family:Roboto1;
+	src: url("roboto.ttf");
+}
+
+#errorPg{
+	font-family:Roboto1;
+	width:700px;
+	height:400px;
+	padding:8px 8px;
+	font-size:20px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	text-align:center;
+}
+
+#homeContainer{
+	font-family:Roboto1;
+	width:600px;
+	height:400px;
+	padding:8px 8px;
+	font-size:20px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	
+}
+
+#home{
+	background-color:white;
+	font-family:Roboto1;
+	width:300px;
+	height:225px;
+	padding:8px 8px;
+	font-size:20px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;	
+	color:Black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+#heading{
+	background-color:#152697;
+	color:White;
+	font-size:30px;
+	letter-spacing:2px;
+	
+}
+
+input[type=text],input[type=password]{
+	outline:none;
+	background-color:#EAEAEA;
+	color:Gray;
+	padding: 4px 4px;
+	border:none;
+}
+
+select{
+	outline:none;
+	background-color:#EAEAEA;
+	padding: 4px 4px;
+	border:none;
+	width:100%;
+	color:Gray;
+}
+
+input[type=date]{
+	outline:none;
+	background-color:#EAEAEA;
+	padding: 4px 4px;
+	border:none;
+	width:96%;
+	color:Gray;
+}
+
+input[type=submit],#adel{
+	outline:none;
+	background-color:lightgray;
+	border:none;
+	padding: 4px 4px;
+	font-size:15px;
+	color:black;
+	letter-spacing:1px;
+	text-decoration:none;
+}
+
+input[type=submit]:active,#adel:active{
+	outline:none;
+	background-color:#3d4650;
+	border:none;
+	padding: 4px 4px;
+	font-size:15px;
+	letter-spacing:0px;
+	color:LightGray;
+	text-decoration:none;
+}
+
+body{
+	background-color:#F3F3F3; 	
+	font-family:Roboto1;
+	height:600px;
+	background-image:url("/Bank_Project/PNG/background.png");
+}
+
+/* Home.jsp */
+#cards{
+	background-color:White;
+	font-family:Roboto1;
+	color:Gray;
+	padding: 20px 4px;
+	width:45%;
+	margin:auto;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size:60px;
+	text-align:center;
+	letter-spacing:10px;
+}
+
+#cards1{
+	width:20%;
+	float:left;
+	margin-left:10%;
+}
+
+#cards2{
+	width:25%;
+	float:left;
+	margin-left:10%;
+}
+
+#miniCards1{
+	width:37%;
+	height:100px;
+	float:left;
+	background-color:#2c3138;
+	text-align:center;
+	margin-left:4px;
+	margin-top:4px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	transition: width 1s;
+}
+
+#miniCards1:hover{
+	background-color:White;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width:50%;
+}
+
+#miniCards2{
+	width:47%;
+	height:100px;
+	float:left;
+	background-color:#2c3138;
+	text-align:center;
+	margin-left:4px;
+	margin-top:4px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	transition: width 1s;
+}
+
+#miniCards2:hover{
+	background-color:White;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width:51%;
+}
+
+#firstLetter{
+	font-size:100px;
+}
+
+#secondLetter{
+	font-size:60px;
+}
+
+#headingCustomer{
+	background-color:#8BC9E6;
+	font-size:50px;
+	letter-spacing:2px;
+	color:Black;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#headingAccount{
+	background-color:#8ad98e;
+	font-size:50px;
+	letter-spacing:2px;
+	color:Black;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#headingCashier{
+	background-color:#B4AAD9 ;
+	font-size:50px;
+	letter-spacing:2px;
+	color:Black;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cardsA{
+	outline:none;
+	border:none;
+	padding: 4px 4px;
+	font-size:15px;
+	letter-spacing:0px;
+	color:LightGray;
+	text-decoration:none;
+	font-size:20px;
+	text-align:center;
+	letter-spacing:3px;
+	display:block; 
+	height:100%; 
+	width:100%;
+}
+
+#cardsA:hover{
+	outline:none;
+	border:none;
+	padding: 4px 4px;
+	font-size:15px;
+	letter-spacing:0px;
+	color:Black;
+	text-decoration:none;
+	font-size:20px;
+	text-align:center;
+	letter-spacing:3px;
+	display:block; 
+	height:100%; 
+	width:100%;
+}
+
+#cardsA:active{
+	outline:none;
+	border:none;
+	padding: 4px 4px;
+	font-size:15px;
+	letter-spacing:0px;
+	color:Black;
+	text-decoration:none;
+	font-size:20px;
+	text-align:center;
+	letter-spacing:4px;
+	display:block; 
+	height:100%; 
+	width:100%;
+}
+
+#cardsArow{
+	background-color:#2c3138;
+}
+
+/* Other forms */
+#FormMasterContainer{
+	width:70%;
+	position:relative;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+#FormContainer{
+	background-color:white;
+	width:50%;
+	position:relative;
+	color:Black;
+	padding: 10px 10px;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#FormHeadingCustomer{
+	border:thick;
+	border-color:#52525A;
+	background-color:#7C8EFE;
+	font-size:30px;
+	letter-spacing:2px;
+	color:white;
+	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family:monospace;
+}
+#FormHeadingAccount{
+	background-color:#8ad98e;
+	font-size:70px;
+	letter-spacing:2px;
+	color:Black;
+	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+#FormHeadingCashier{
+	background-color:#B4AAD9;
+	font-size:70px;
+	letter-spacing:2px;
+	color:Black;
+	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+#Form #tdheading{
+	font-size:20px;
+	color:LightGray;
+	background-color:#596a6a;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tdheadingidcus{
+	font-size:20px;
+	color:Black;
+	letter-spacing:2px;
+	background-color:#8BC9E6;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+#tdheadingidacc{
+	font-size:20px;
+	color:Black;
+	letter-spacing:2px;
+	background-color:#8ad98e;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+#tdheadingidcash{
+	font-size:20px;
+	color:Black;
+	letter-spacing:2px;
+	background-color:#B4AAD9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+#tdheadingid{
+	font-size:20px;
+	color:LightGray;
+	background-color:#5c6a78;
+}
+
+#Form input[type=text]{
+	font-size:16px;
+}
+
+/*for mandatory fields*/
+#mandatory{
+	color:red;
+}
+
+.dropbtn {
+    background-color: lightgray;
+    color: #0A155A;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:#DADEF6;
+}
+.submitLink {
+  background-color: transparent;
+  text-decoration: underline;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+submitLink:focus {
+  outline: none;
+}
+.btn {  background-color: transparent; border: 0; padding: 0;}
